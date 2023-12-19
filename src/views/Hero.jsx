@@ -36,7 +36,7 @@ const Hero = () => {
           <NavLink to="references">References</NavLink>
           <NavLink to="care">Care</NavLink>
         </ul>
-        <img src={cartIcon} className="hidden md:block cursor-pointer" />
+        <img src={cartIcon} className="hidden md:block cursor-pointer" alt="cart" />
         <HiMenuAlt3
           size={30}
           className="block md:hidden cursor-pointer text-white"
